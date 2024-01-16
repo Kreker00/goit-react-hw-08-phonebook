@@ -5,7 +5,7 @@ import {
   ContactTitle,
   StyledInput,
 } from './SearchFilter.styled';
-import { changeFilter } from 'redux/contacts/filterSlice';
+import { changeFilter } from '../../redux/contacts/filterSlice';
 
 export const SearchFilter = () => {
   const dispatch = useDispatch();

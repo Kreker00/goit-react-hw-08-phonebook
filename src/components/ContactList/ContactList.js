@@ -6,12 +6,12 @@ import {
   StyledContactItem,
   StyledDeleteButton,
 } from './ContactList.styled';
-import { deleteContact } from 'redux/contacts/operations';
+import { deleteContact } from '../../redux/contacts/operations';
 import {
   selectError,
   selectIsLoading,
   selectVisibleContacts,
-} from 'redux/contacts/selectors';
+} from '../../redux/contacts/selectors';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 export const ContactList = () => {
